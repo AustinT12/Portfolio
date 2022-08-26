@@ -27,7 +27,7 @@ const Navbar = () => {
       <ul className='hidden md:flex'>
         <li className='hover:text-[#8892b0]'>
           <Link to='home' smooth={true} duration={500}>
-            Homepages
+            Page of Home
           </Link>
         </li>
         <li className='hover:text-[#8892b0]'>
