@@ -26,19 +26,18 @@ const About = () => {
               '
             >
               <div>
+                I am a driven, goal-oriented, problem solver who takes immense
+                pleasure in helping others succeed.
+              </div>
+              <br />
+              <div>
                 I am currently a student at Clayton State University, where I am
-                majoring in Computer Science.
+                majoring in Computer Science (4th year).
               </div>
               <br />
               <div>
                 I am passionate about building excellent software that improves
                 the lives of those around me.
-              </div>
-              <br />
-              <div>
-                I specialize in creating software for clients ranging from
-                individuals and small-businesses all the way to large enterprise
-                corporations.
               </div>
             </p>
           </div>
