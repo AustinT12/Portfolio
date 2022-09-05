@@ -4,6 +4,7 @@ import realEstate from '../assets/realestate.jpg';
 import Cointinuum from '../assets/cointinuum.png';
 import interactiveRating from '../assets/interactiverating.png';
 import orderSummary from '../assets/ordersummary.png';
+import food from '../assets/food.png';
 
 const Work = () => {
   return (
@@ -13,7 +14,7 @@ const Work = () => {
           <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-[#8892b0]'>
             Work
           </p>
-          <p className='py-6'>Check out some of my recent work below:  </p>
+          <p className='py-6'>Check out some of my recent work below: </p>
         </div>
 
         {/* Container */}
@@ -24,7 +25,7 @@ const Work = () => {
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center content-div'
           >
             {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
+            <div className='opacity-0 group-hover:opacity-100 hover:scale-105 duration-500'>
               <span className='text-2xl font-bold text-white tracking-wider'>
                 Cointinuum Web App
               </span>
@@ -47,7 +48,7 @@ const Work = () => {
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
+            <div className='opacity-0 group-hover:opacity-100 hover:scale-105 duration-500'>
               <span className='text-2xl font-bold text-white tracking-wider text-center'>
                 Rating Component
               </span>
@@ -77,7 +78,7 @@ const Work = () => {
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
+            <div className='opacity-0 group-hover:opacity-100 hover:scale-105 duration-500'>
               <span className='text-2xl font-bold text-white tracking-wider'>
                 Order Summary Page
               </span>
@@ -103,21 +104,28 @@ const Work = () => {
           </div>
           {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{ backgroundImage: `url(${food})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
+            <div className='opacity-0 group-hover:opacity-100 hover:scale-105 duration-500'>
               <span className='text-2xl font-bold text-white tracking-wider'>
                 React JS Application
               </span>
               <div className='pt-8 text-center'>
-                <a href='/'>
+                <a
+                  href='https://austint12.github.io/Food-ordering/'
+                  target='_blank'
+                >
+                 
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='/'>
+                <a
+                  href='https://github.com/AustinT12/Food-ordering'
+                  target='_blank'
+                >
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -132,7 +140,7 @@ const Work = () => {
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
+            <div className='opacity-0 group-hover:opacity-100 hover:scale-105 duration-500'>
               <span className='text-2xl font-bold text-white tracking-wider'>
                 React JS Application
               </span>
@@ -155,7 +163,7 @@ const Work = () => {
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
+            <div className='opacity-0 group-hover:opacity-100 hover:scale-105 duration-500'>
               <span className='text-2xl font-bold text-white tracking-wider'>
                 React JS Application
               </span>

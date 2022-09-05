@@ -16,10 +16,12 @@
 
 .content-div {
   background-repeat: no-repeat;
+  background-size: 300px 250px;  
   background-size: cover;
+
   height: 250px;
   background-position-y: center;
-  background-position-x: center;
+  background-position-x: center; 
 }
 
 .content-div:hover {
@@ -28,4 +30,48 @@
     rgba(112, 157, 255, 0.8),
     hsla(242, 74%, 61%, 0.8)
   ) !important;
+}
+
+.waving-hand {
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+  margin-left: 3px;
+  margin-right: 6px;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  15% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  30% {
+    transform: rotate(-8deg);
+  }
+  40% {
+    transform: rotate(14deg);
+  }
+  50% {
+    transform: rotate(-4deg);
+  }
+  60% {
+    transform: rotate(10deg);
+  }
+  70% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@media (max-width: 768px) {
+  .waving-hand {
+    visibility: hidden;
+    margin: -14px;
+  }
 }

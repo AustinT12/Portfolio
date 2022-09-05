@@ -56,7 +56,6 @@ const Navbar = () => {
       <div onClick={handleClick} className='md:hidden z-10'>
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
-
       {/* Mobile menu */}
       <ul
         className={
