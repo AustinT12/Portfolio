@@ -32,7 +32,7 @@ const About = () => {
               <br />
               <div>
                 I am currently a student at Clayton State University, where I am
-                majoring in Computer Science (4th year). I will be graduated in May 2023.
+                majoring in Computer Science (4th year). I will be graduating in May 2023.
               </div>
               <br />
               <div>
