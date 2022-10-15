@@ -1,10 +1,10 @@
 import React from 'react';
 import WorkImg from '../assets/workImg.jpeg';
 import realEstate from '../assets/realestate.jpg';
-import Cointinuum from '../assets/cointinuum.png';
+import cointinuum from '../assets/cointinuum.png';
 import interactiveRating from '../assets/interactiverating.png';
-import orderSummary from '../assets/ordersummary.png';
-import food from '../assets/food.png';
+import summary from '../assets/summary.png';
+import meal from '../assets/meal.png';
 
 const Work = () => {
   return (
@@ -21,7 +21,7 @@ const Work = () => {
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
           {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${Cointinuum})` }}
+            style={{ backgroundImage: `url(${cointinuum})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center content-div'
           >
             {/* Hover Effects */}
@@ -74,7 +74,7 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${orderSummary})` }}
+            style={{ backgroundImage: `url(${summary})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
@@ -104,7 +104,7 @@ const Work = () => {
           </div>
           {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${food})` }}
+            style={{ backgroundImage: `url(${meal})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}

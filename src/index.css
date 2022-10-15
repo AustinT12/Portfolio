@@ -16,12 +16,10 @@
 
 .content-div {
   background-repeat: no-repeat;
-  background-size: 300px 250px;  
   background-size: cover;
-
-  height: 250px;
-  background-position-y: center;
-  background-position-x: center; 
+  background-position: center;
+  height: 255px;
+  
 }
 
 .content-div:hover {
