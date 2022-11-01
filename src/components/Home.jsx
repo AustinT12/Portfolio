@@ -15,8 +15,8 @@ const Home = () => {
           I'm a Jr. Software Developer.
         </h2>
         <p className='text-[#8892b0] py-4 max-w-[700px] tracking-wide fs-10 text-md'>
-          I’m a software developer specializing in building, and occasionally
-          designing, exceptional digital experiences. Currently, I’m focused on
+          I’m a software developer specializing in building occasionally
+          exceptional digital experiences. Currently, I’m focused on
           building responsive full-stack web applications. 
         </p>
         <Link to='work'>
