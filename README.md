@@ -13,7 +13,7 @@ This porfolio website is a React application that highlights who I am, my techin
 
 ## Reflection
 
-This was a weekend long project built for the purpose of supplementing my job applications. The goal of this project is to provide potential employers a quick glance of who I am and my projects. 
+This was a weekend long project built for the purpose of supplementing my job applications. The goal of this project is to provide potential employers with a quick glance of who I am and my projects. 
 
 The technologies used in this project are React, CSS, and Tailwind. Building this portfolio was a great learning experience. I got to better understand how to effectively use React hooks, such as useState, and how to implement seemless styling to my components using Tailwind. I will continue adding on to my portfolio as I progress in my career. 
 
